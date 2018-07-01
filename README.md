@@ -1,1 +1,7 @@
-# weight management
+# API
+
+```
+npm install
+
+npm start
+```
