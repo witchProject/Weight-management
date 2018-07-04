@@ -1,6 +1,6 @@
 # weight-management
 
-> A Vue.js project
+> witch weight management page project!
 
 ## Build Setup
 
