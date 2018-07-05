@@ -3,8 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import axios from 'axios'
 
 Vue.config.productionTip = false
+axios.defaults.headers.common['Access-Control-Allow-Origin'] = 'http://localhost:3000'
+axios.defaults.headers.common['Access-Control-Allow-Headers'] = 'X-Requested-With'
+Vue.prototype.$http = axios
 
 /* eslint-disable no-new */
 new Vue({
